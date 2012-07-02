@@ -1,0 +1,5 @@
+DB_NAME = "satsolu_amistar_pcs"
+DB_PASSWORD = "amistar_root123"
+DB_USER = "satsolu_amistar"
+DB_PORT = "3306"
+DB_HOST = "localhost"
