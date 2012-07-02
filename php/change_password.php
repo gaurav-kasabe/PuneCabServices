@@ -1,3 +1,8 @@
+<?php
+session_start();	
+
+$user_name=$_SESSION['user_name'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,12 +59,6 @@
 	<![endif]-->
 </head>
 <body>
-<?php
-session_start();	
-
-$user_name=$_SESSION['user_name'];
-?>
-
 <div class="main">
 <!--==============================header=================================-->
 <header>
